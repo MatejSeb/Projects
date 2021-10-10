@@ -5,3 +5,4 @@ murders %>% mutate(abb, rate) %>% ggplot(aes(abb, rate)) + geom_bar(width = 0.5,
   coord_flip()
 
 ggsave("figs/barplot.png")
+bxvc
